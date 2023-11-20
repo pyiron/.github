@@ -21,8 +21,8 @@ The stable `pyiron` version is developed based on the generic `job object` class
 | [pyiron_gpl](https://github.com/pyiron/pyiron_gpl)                           | A package for all interfaces which require a GPL license (default for pyiron is BSD).                    |     [:package:](https://anaconda.org/conda-forge/pyiron_gpl)      |
 | [pyiron_potentialfit](https://github.com/pyiron/pyiron_potentialfit)         | Fit machine learning interatomic potentials using pyiron.                                                | [:package:](https://anaconda.org/conda-forge/pyiron_potentialfit) |
 
-## Standalone Packages :truck:
-To increase the maintainability of the `pyiron` project, there is a continuous release of spin-off packages which are used inside `pyiron`, but which can also be used as standalone packages:
+## Stand-alone Packages :truck:
+To increase the maintainability of the `pyiron` project, there is a continuous release of spin-off packages which are used inside `pyiron`, but which can also be used as stand-alone packages:
 
 | Repository                                                     | Description                                                                                                                                  |                 Documentation                  |                         Conda Package                          |
 |----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------:|:--------------------------------------------------------------:|
@@ -35,7 +35,7 @@ To increase the maintainability of the `pyiron` project, there is a continuous r
 | [structuretoolkit](https://github.com/pyiron/structuretoolkit) | Build, analyse and visualise atomistic structures for materials science.                                                                     |                                                | [:package:](https://anaconda.org/conda-forge/structuretoolkit) |
 
 ## Next Generation Developments :rocket:
-Based on the experience with the stable pyiron version and the success of the standalone packages, the pyiron framework continuous to innovate in the field of workflows for materials science. At the current stage `pyiron_workflow` is planned to be the future replacement of `pyiron_base` towards a more functional approach to workflows:
+Based on the experience with the stable pyiron version and the success of the stand-alone packages, the pyiron framework continues to innovate in the field of workflows for materials science. At the current stage `pyiron_workflow` is planned to be the future replacement of `pyiron_base` towards a more functional approach to workflows:
 
 | Repository                                                   | Description                                                             |                         Conda Package                         |
 |--------------------------------------------------------------|-------------------------------------------------------------------------|:-------------------------------------------------------------:|
