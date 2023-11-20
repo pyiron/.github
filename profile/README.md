@@ -1,9 +1,9 @@
 # pyiron - Complex Workflows made easy 
 From rapid prototyping to high performance computing in material science
 
-|        Website :compass:         |                 Documentation :books:                  |                 Workshops :rocket:                 |
-|:--------------------------------:|:------------------------------------------------------:|:--------------------------------------------------:|
-| [pyiron.org](https://pyiron.org) | [pyiron.readthedocs.io](https://pyiron.readthedocs.io) | [workshop.pyiron.org](https://workshop.pyiron.org) |
+|        Website :compass:         |                 Documentation :books:                  |                 Workshops :rocket:                 |          Questions :speech_balloon:           |
+|:--------------------------------:|:------------------------------------------------------:|:--------------------------------------------------:|:---------------------------------------------:|
+| [pyiron.org](https://pyiron.org) | [pyiron.readthedocs.io](https://pyiron.readthedocs.io) | [workshop.pyiron.org](https://workshop.pyiron.org) | [pyiron/FAQs](https://github.com/pyiron/FAQs) |
 
 ## Stable Version :mountain_snow:
 The stable `pyiron` version is developed based on the generic `job object` class to handle the execution and storage of calculations and post-processing of experimental data. A range of different modules are available:
