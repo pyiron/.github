@@ -19,6 +19,7 @@ The stable `pyiron` version is developed based on the generic `job object` class
 | [pyiron_electrochemistry](https://github.com/pyiron/pyiron_electrochemistry) | Workflows and analysis tools for computational electrochemistry using pyiron.                            |                                                                   |
 | [pyiron_experimental](https://github.com/pyiron/pyiron_experimental)         | Post processing workflows for experimental applications.                                                 | [:package:](https://anaconda.org/conda-forge/pyiron_experimental) |
 | [pyiron_gpl](https://github.com/pyiron/pyiron_gpl)                           | A package for all interfaces which require a GPL license (default for pyiron is BSD).                    |     [:package:](https://anaconda.org/conda-forge/pyiron_gpl)      |
+| [pyiron_gui](https://github.com/pyiron/pyiron_gui)           | Extended graphical user interface (GUI) for the stable pyiron version   |   [:package:](https://anaconda.org/conda-forge/pyiron_gui)    |          
 | [pyiron_potentialfit](https://github.com/pyiron/pyiron_potentialfit)         | Fit machine learning interatomic potentials using pyiron.                                                | [:package:](https://anaconda.org/conda-forge/pyiron_potentialfit) |
 
 ## Stand-alone Packages :truck:
@@ -41,7 +42,6 @@ Based on the experience with the stable pyiron version and the success of the st
 | Repository                                                   | Description                                                             |                         Conda Package                         |
 |--------------------------------------------------------------|-------------------------------------------------------------------------|:-------------------------------------------------------------:|
 | [ironflow](https://github.com/pyiron/ironflow)               | Prototype of a graphical user interface for pyiron (unstable)           |    [:package:](https://anaconda.org/conda-forge/ironflow)     |            
-| [pyiron_gui](https://github.com/pyiron/pyiron_gui)           | Extended graphical user interface (GUI) for the stable pyiron version   |   [:package:](https://anaconda.org/conda-forge/pyiron_gui)    |          
 | [pyiron_workflow](https://github.com/pyiron/pyiron_workflow) | Graph-and-node based workflows                                          | [:package:](https://anaconda.org/conda-forge/pyiron_workflow) |
  
 
