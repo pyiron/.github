@@ -8,7 +8,7 @@ From rapid prototyping to high performance computing in material science
 # Different pyiron Versions
 After the initial public release of [pyiron](https://doi.org/10.1016/j.commatsci.2018.07.043) a number of pyiron versions have been released. They cover the same scientific applications and primarily differ in the user interface and storage interface. 
 
-## Stable / Classical Version :mountain_snow:
+## Stable / Classical pyiron Version :mountain_snow:
 The stable / classical `pyiron` version is developed based on the generic `job object` class to handle the execution and storage of atomistic calculations and their post-processing. It consists of the workflow manager `pyiron_base` and the `pyiron_atomistics` package which provides interfaces for a number of atomistic simulation codes and utilities. 
 
 | Repository                                                                   | Description                                                                                              |                                                                                       Coverage                                                                                       |                  Documentation                   |                           Conda Package                            |
@@ -24,7 +24,7 @@ As part of the [Exascale Atomistic Capability for Accuracy, Length, and Time (EX
 | [atomistics](https://github.com/pyiron/atomistics)             | Interfaces for atomistic simulation codes and workflows                                                                                    |       [![codecov](https://codecov.io/gh/pyiron/atomistics/graph/badge.svg?token=8LET56AS45)](https://codecov.io/gh/pyiron/atomistics)       |   [:books:](https://atomistics.readthedocs.io)    |    [:package:](https://anaconda.org/conda-forge/atomistics)    |
 | [executorlib](https://github.com/pyiron/executorlib)           | Scale serial and MPI-parallel python functions over hundreds of compute nodes all from within a jupyter notebook or serial python process. |        [![codecov](https://codecov.io/gh/pyiron/executorlib/graph/badge.svg?token=KFIO3R08H3)](https://codecov.io/gh/pyiron/executorlib)      |    [:books:](https://executorlib.readthedocs.io)    |    [:package:](https://anaconda.org/conda-forge/executorlib)     |
 
-## Next Generation Developments :rocket:
+## Next Generation pyiron :rocket:
 Based on the experience with the stable / classical pyiron version and the success of the minimal pyiron version, the pyiron framework continues to innovate in the field of workflows for materials science. At the current stage `pyiron_workflow` is planned to be the future replacement of `pyiron_base` towards a more functional approach to workflows, including a visual programming interface and hash based data storage. 
 
 | Repository                                                   | Description                                                             |                                                                               Coverage                                                                               | Documentation |                         Conda Package                         |
