@@ -75,7 +75,6 @@ In addition to the `pyiron` software packages in this organisation, there are a 
 |--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [actions](https://github.com/pyiron/actions)                                         | A centralized location for our GitHub actions                                                                  |
 | [docker-stacks](https://github.com/pyiron/docker-stacks)                             | Ready-to-run Docker images containing pyiron applications                                                      |
-| [pyiron-installer](https://github.com/pyiron/pyiron-installer)                       | pyiron installer based on conda constructor                                                                    |
 | [pyiron_module_template](https://github.com/pyiron/pyiron_module_template)           | A template to generate a new pyiron module.                                                                    |
 | [pyiron-publication-template](https://github.com/pyiron/pyiron-publication-template) | Template repository - how to publish your pyiron workflow                                                      |
 | [pyiron-resources](https://github.com/pyiron/pyiron-resources)                       | Resource folder for pyiron - an integrated development environment (IDE) for computational materials science.  |
