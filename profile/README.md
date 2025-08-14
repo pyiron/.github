@@ -5,6 +5,16 @@ From rapid prototyping to high performance computing in material science
 |:--------------------------------:|:------------------------------------------------------:|:--------------------------------------------------:|:---------------------------------------------:|
 | [pyiron.org](https://pyiron.org) | [pyiron.readthedocs.io](https://pyiron.readthedocs.io) | [workshop.pyiron.org](https://workshop.pyiron.org) | [pyiron/FAQs](https://github.com/pyiron/FAQs) |
 
+This project is supported by digitalization initiatives in the field of materials science:
+
+| [Material Digital](https://www.materialdigital.de)  | [NFDI Matwerk](https://nfdi-matwerk.de) | [MaterialsCommons](https://materialscommons4.eu) | 
+|:---------------------------------------------------:|:---------------------------------------:|:------------------------------------------------:|
+
+The pyiron developers closely collaborate with workflow standardization initiatives and the Python scientific computing community to establish Python functions are workflow nodes:
+
+| [Python Workflow Definition](https://pythonworkflow.github.io/) | [Workflows.community](https://workflows.community/systems/pyiron_base/) | [NumFocus](https://numfocus.org/sponsored-projects/affiliated-projects) |
+|:---------------------------------------------------------------:|:-----------------------------------------------------------------------:|:------------------------------------------------------------------------:|
+
 # Different pyiron Versions
 After the initial public release of [pyiron](https://doi.org/10.1016/j.commatsci.2018.07.043) a number of pyiron versions have been released. They cover the same scientific applications and primarily differ in the user interface and storage interface. 
 
