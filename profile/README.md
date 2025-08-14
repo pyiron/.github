@@ -5,7 +5,7 @@ From rapid prototyping to high-performance computing in material science
 |:--------------------------------:|:------------------------------------------------------:|:--------------------------------------------------:|:---------------------------------------------:|
 | [pyiron.org](https://pyiron.org) | [pyiron.readthedocs.io](https://pyiron.readthedocs.io) | [workshop.pyiron.org](https://workshop.pyiron.org) | [pyiron/FAQs](https://github.com/pyiron/FAQs) |
 
-This project is supported by digitalization initiatives in the field of materials science:
+This project is supported by German and European digitalization initiatives in the field of materials science:
 
 | [Material Digital](https://www.materialdigital.de)  | [NFDI Matwerk](https://nfdi-matwerk.de) | [MaterialsCommons](https://materialscommons4.eu) | 
 |:---------------------------------------------------:|:---------------------------------------:|:------------------------------------------------:|
