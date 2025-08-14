@@ -10,7 +10,7 @@ This project is supported by German and European digitalization initiatives in t
 | [Material Digital](https://www.materialdigital.de)  | [NFDI Matwerk](https://nfdi-matwerk.de) | [MaterialsCommons](https://materialscommons4.eu) | 
 |:---------------------------------------------------:|:---------------------------------------:|:------------------------------------------------:|
 
-The pyiron developers closely collaborate with workflow standardization initiatives and the Python scientific computing community to establish Python functions are workflow nodes:
+The pyiron developers closely collaborate with workflow standardization initiatives and the Python scientific computing community to establish Python functions as workflow nodes:
 
 | [Python Workflow Definition](https://pythonworkflow.github.io/) | [Workflows.community](https://workflows.community/systems/pyiron_base/) | [NumFocus](https://numfocus.org/sponsored-projects/affiliated-projects) |
 |:---------------------------------------------------------------:|:-----------------------------------------------------------------------:|:------------------------------------------------------------------------:|
