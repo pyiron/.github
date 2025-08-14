@@ -18,8 +18,8 @@ The pyiron developers closely collaborate with workflow standardization initiati
 # Different pyiron Versions
 After the initial public release of [pyiron](https://doi.org/10.1016/j.commatsci.2018.07.043) the pyiron developers continue to extend the functionality of pyiron and prototype new workflow concepts. 
 
-## Classical pyiron Version :mountain_snow:
-The classical / stable `pyiron` version is developed based on the generic `job object` class to handle the execution and storage of atomistic calculations and their post-processing. It consists of the workflow manager `pyiron_base` and the `pyiron_atomistics` package which provides interfaces for a number of atomistic simulation codes and utilities. 
+## Stable pyiron Version :mountain_snow:
+The stable `pyiron` version is developed based on the generic `job object` class to handle the execution and storage of atomistic calculations and their post-processing. 
 
 | Repository                                                                   | Description                                                                                              |                                                                                       Coverage                                                                                       |                  Documentation                   |                           Conda Package                            |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------:|:------------------------------------------------------------------:|
