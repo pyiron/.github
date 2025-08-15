@@ -15,7 +15,7 @@ The pyiron developers closely collaborate with workflow standardization initiati
 | [Python Workflow Definition](https://pythonworkflow.github.io/) | [Workflows.community](https://workflows.community/systems/pyiron_base/) | [NumFocus](https://numfocus.org/sponsored-projects/affiliated-projects) |
 |:---------------------------------------------------------------:|:-----------------------------------------------------------------------:|:------------------------------------------------------------------------:|
 
-# Different pyiron Versions
+# pyiron Versions
 After the initial public release of [pyiron](https://doi.org/10.1016/j.commatsci.2018.07.043) the pyiron developers continue to extend the functionality of pyiron and prototype new workflow concepts. 
 
 ## Stable pyiron Version :mountain_snow:
