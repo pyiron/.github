@@ -1,9 +1,9 @@
 # pyiron - Complex Workflows made easy 
 From rapid prototyping to high-performance computing in material science
 
-|  Website :globe_with_meridians:  |                 Documentation :books:                  |                 Workshops :teacher:                |          Questions :speech_balloon:           |     Publication :pencil:      |
+|  Website :globe_with_meridians:  |                 Documentation :books:                  |                 Workshops :teacher:                |          Questions :speech_balloon:           |     Publications :pencil:      |
 |:--------------------------------:|:------------------------------------------------------:|:--------------------------------------------------:|:---------------------------------------------:|:------------------------------:|
-| [pyiron.org](https://pyiron.org) | [pyiron.readthedocs.io](https://pyiron.readthedocs.io) | [workshop.pyiron.org](https://workshop.pyiron.org) | [pyiron/FAQs](https://github.com/pyiron/FAQs) | [publication using pyiron](publication.md)
+| [pyiron.org](https://pyiron.org) | [pyiron.readthedocs.io](https://pyiron.readthedocs.io) | [workshop.pyiron.org](https://workshop.pyiron.org) | [pyiron/FAQs](https://github.com/pyiron/FAQs) | [Using pyiron](publication.md) |
 
 This project is supported by German and European digitalization initiatives in the field of materials science:
 
