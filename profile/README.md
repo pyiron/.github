@@ -3,7 +3,7 @@ From rapid prototyping to high-performance computing in material science
 
 |  Website :globe_with_meridians:  |                 Documentation :books:                  |                 Workshops :teacher:                |          Questions :speech_balloon:           |     Publications :pencil:      |
 |:--------------------------------:|:------------------------------------------------------:|:--------------------------------------------------:|:---------------------------------------------:|:------------------------------:|
-| [pyiron.org](https://pyiron.org) | [pyiron.readthedocs.io](https://pyiron.readthedocs.io) | [workshop.pyiron.org](https://workshop.pyiron.org) | [pyiron/FAQs](https://github.com/pyiron/FAQs) | [Using pyiron](publication.md) |
+| [pyiron.org](https://pyiron.org) | [pyiron.readthedocs.io](https://pyiron.readthedocs.io) | [workshop.pyiron.org](https://workshop.pyiron.org) | [pyiron/FAQs](https://github.com/pyiron/FAQs) | [Using pyiron](https://pyiron.org/publications) |
 
 This project is supported by German and European digitalization initiatives in the field of materials science:
 
@@ -15,10 +15,7 @@ The pyiron developers closely collaborate with workflow standardization initiati
 | [Python Workflow Definition](https://pythonworkflow.github.io/) | [Workflows.community](https://workflows.community/systems/pyiron_base/) | [NumFocus](https://numfocus.org/sponsored-projects/affiliated-projects) |
 |:---------------------------------------------------------------:|:-----------------------------------------------------------------------:|:------------------------------------------------------------------------:|
 
-# pyiron Versions
-After the initial public release of [pyiron](https://doi.org/10.1016/j.commatsci.2018.07.043) the pyiron developers continue to extend the functionality of pyiron and prototype new workflow concepts. 
-
-## Stable pyiron Version :mountain_snow:
+# Stable pyiron Version :mountain_snow:
 The stable `pyiron` version is developed based on the generic `job object` class to handle the execution and storage of atomistic calculations and their post-processing. 
 
 | Repository                                                                   | Description                                                                                              |                                                                                       Coverage                                                                                       |                  Documentation                   |                           Conda Package                            |
@@ -28,7 +25,7 @@ The stable `pyiron` version is developed based on the generic `job object` class
 | [pyiron_base](https://github.com/pyiron/pyiron_base)                         | A package containing the core components e.g. the job management, data storage and resource management. With the `@job` decorator every Python function can be converted into a pyiron job object.        |             [![codecov](https://codecov.io/gh/pyiron/pyiron_base/graph/badge.svg?token=qjRvhGVij2)](https://codecov.io/gh/pyiron/pyiron_base)             |  [:books:](https://pyiron-base.readthedocs.io)   |     [:package:](https://anaconda.org/conda-forge/pyiron_base)      |
 | [pyiron_potentialfit](https://github.com/pyiron/pyiron_potentialfit)         | Fit machine learning interatomic potentials using pyiron.                                                |                     |                                                  |  [:package:](https://anaconda.org/conda-forge/pyiron_potentialfit) |
 
-## Next Generation pyiron :rocket:
+# Next Generation pyiron :rocket:
 Based on the experience with the stable pyiron version and the success of the standalone packages, the pyiron framework continues to innovate in the field of workflows for materials science. 
 
 | Repository                                                   | Description                                                             |                                                                               Coverage                                                                               | Documentation |                         Conda Package                         |
@@ -36,11 +33,8 @@ Based on the experience with the stable pyiron version and the success of the st
 | [ironflow](https://github.com/pyiron/ironflow)               | Prototype of a graphical user interface for pyiron (not under active development)           |        [![Coverage Status](https://coveralls.io/repos/github/pyiron/ironflow/badge.svg?branch=main)](https://coveralls.io/github/pyiron/ironflow?branch=main)        |               |    [:package:](https://anaconda.org/conda-forge/ironflow)     |            
 | [pyiron_workflow](https://github.com/pyiron/pyiron_workflow) | Graph-and-node based workflows                                          | [![Coverage](https://codecov.io/gh/pyiron/pyiron_workflow/graph/badge.svg)](https://codecov.io/gh/pyiron/pyiron_workflow) | [:books:](https://pyiron-workflow.readthedocs.io/en/latest/) | [:package:](https://anaconda.org/conda-forge/pyiron_workflow) |
 | [pyironFlow](https://github.com/pyiron/pyironflow) | React xyflow based visual programming interface for pyiron_workflow                                           |  | [:books:](https://github.com/pyiron/pyironFlow/blob/main/docs/user_guide.md) | [:package:](https://anaconda.org/conda-forge/pyironflow) |
- 
-# Beyond pyiron 
-In addition to the diffierent pyiron versions, the pyiron Github organisation hosts a number of tools and utilities which have been developed as part of the pyiron project.
 
-## Stand-alone Packages :truck:
+# Stand-alone Packages :truck:
 To increase the maintainability of the `pyiron` project, there is a continuous release of spin-off packages which are used inside `pyiron`, but which can also be used as stand-alone packages:
 
 | Repository                                                     | Description                                                                                                                                |                                                                                Coverage                                                                                |                   Documentation                   |                         Conda Package                          |
@@ -59,23 +53,3 @@ To increase the maintainability of the `pyiron` project, there is a continuous r
 | [semantikon](https://github.com/pyiron/semantikon) | Provide type hinting and interpreters for scientific context on node inputs and outputs.                                                                   | [![Coverage](https://codecov.io/gh/pyiron/semantikon/graph/badge.svg)](https://codecov.io/gh/pyiron/semantikon) |                                                   | [:package:](https://anaconda.org/conda-forge/semantikon) |
 | [sphinx_parser](https://github.com/pyiron/sphinx_parser) | Parser for the S/PHI/nX DFT simulation code.                                                                   | [![codecov](https://codecov.io/gh/pyiron/sphinx_parser/graph/badge.svg?token=YNZE8VS78Y)](https://codecov.io/gh/pyiron/sphinx_parser) |                                                   | [:package:](https://anaconda.org/conda-forge/sphinx_parser) |
 | [structuretoolkit](https://github.com/pyiron/structuretoolkit) | Build, analyse and visualise atomistic structures for materials science.                                                                   | [![codecov](https://codecov.io/gh/pyiron/structuretoolkit/graph/badge.svg?token=B6I4OACKND)](https://codecov.io/gh/pyiron/structuretoolkit) |                                                   | [:package:](https://anaconda.org/conda-forge/structuretoolkit) |
-
-## Infrastructure :robot:
-In addition to the `pyiron` software packages in this organisation, there are a couple of repositories to automate the maintainence of the pyiron project:
-
-| Repository                                                                           | Description                                                                                                    |
-|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [actions](https://github.com/pyiron/actions)                                         | A centralized location for our GitHub actions                                                                  |
-| [docker-stacks](https://github.com/pyiron/docker-stacks)                             | Ready-to-run Docker images containing pyiron applications                                                      |
-| [pyiron_module_template](https://github.com/pyiron/pyiron_module_template)           | A template to generate a new pyiron module.                                                                    |
-| [pyiron-publication-template](https://github.com/pyiron/pyiron-publication-template) | Template repository - how to publish your pyiron workflow                                                      |
-| [pyiron-resources](https://github.com/pyiron/pyiron-resources)                       | Resource folder for pyiron - an integrated development environment (IDE) for computational materials science.  |
-
-## Publication :books:
-Example publication demonstrating how `pyiron` accelerates research and covers the whole simulation life cycle up to the publication of the results:
-
-| Repository                                                                       | Title                                                                                                                                                 | Authors                                                                                                                                                        | Journal |
-|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
-| [pyiron_meltingpoint](https://github.com/pyiron/pyiron_meltingpoint)             | [A fully automated approach to calculate the melting temperature of elemental crystals](https://www.sciencedirect.com/science/article/pii/S0927025620305565)                                                             | Li-Fang Zhu, Jan Janssen, Shoji Ishibashi, Fritz Körmann, Blazej Grabowski and Joerg Neugebauer                                                               | Computational Materials Science 187, 110065 |
-| [pyiron_generalized_dipole](https://github.com/pyiron/pyiron_generalized_dipole) | [Generalized dipole correction for charged surfaces in the repeated-slab approach](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.045403) | Christoph Freysoldt, Arpit Mishra, Michael Ashton and Joerg Neugebauer                                                                                        | Physical Review B 102, 045403 |
-| [pyiron_md_montecarlo](https://github.com/pyiron/pyiron_md_montecarlo)           | [Interplay of Chemistry and Faceting at Grain Boundaries in a Model Al Alloy](https://link.aps.org/doi/10.1103/PhysRevLett.124.106102)                | Huan Zhao, Liam Huber, Wenjun Lu, Nicolas J. Peter, Dayong An, Frédéric De Geuser, Gerhard Dehm, Dirk Ponge, Joerg Neugebauer, Baptiste Gault and Dierk Raabe | Physical Review Letters 124, 106102 | 
