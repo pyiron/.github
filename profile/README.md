@@ -34,7 +34,7 @@ Based on the experience with the stable pyiron version and the success of the st
 | [pyiron_workflow](https://github.com/pyiron/pyiron_workflow) | Graph-and-node based workflows                                          | [![Coverage](https://codecov.io/gh/pyiron/pyiron_workflow/graph/badge.svg)](https://codecov.io/gh/pyiron/pyiron_workflow) | [:books:](https://pyiron-workflow.readthedocs.io/en/latest/) | [:package:](https://anaconda.org/conda-forge/pyiron_workflow) |
 | [pyironFlow](https://github.com/pyiron/pyironflow) | React xyflow based visual programming interface for pyiron_workflow                                           |  | [:books:](https://github.com/pyiron/pyironFlow/blob/main/docs/user_guide.md) | [:package:](https://anaconda.org/conda-forge/pyironflow) |
 
-# Stand-alone Packages :truck:
+# Standalone Packages :truck:
 To increase the maintainability of the `pyiron` project, there is a continuous release of spin-off packages which are used inside `pyiron`, but which can also be used as stand-alone packages:
 
 | Repository                                                     | Description                                                                                                                                |                                                                                Coverage                                                                                |                   Documentation                   |                         Conda Package                          |
